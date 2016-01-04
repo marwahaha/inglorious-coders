@@ -6,7 +6,7 @@ layout: default
   <div class="mdl-grid">
     {% for post in paginator.posts %}
     <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-        <div class="mdl-card__title post-separation" {% if(post.image.feature) %}style="background: url({{ post.image.feature | prepend: site.baseassets }}) center / cover; height:200px;"{% else %}style="background-color:rgb(68,138,255);"{% endif %}>
+        <div class="mdl-card__title post-separation" {% if(post.image.feature) %}style="background: url({{ post.image.feature | prepend: site.assets.host }}) center / cover; height:200px;"{% else %}style="background-color:rgb(68,138,255);"{% endif %}>
             <h2 class="mdl-card__title-text {% if(post.image.feature) %}title-background{% endif %}">{{ post.title}}</h2>
         </div>
         <div class="mdl-card__supporting-text">
