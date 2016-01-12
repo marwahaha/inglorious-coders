@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  <a name="top"></a>
+  {% include components/navigation.html %}
+  <div class="mdl-grid post">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__title post-separation title-background" {% if(page.image.feature) %}style="background: url('http://placehold.it/350x150') center / cover; height:300px;"{% endif %}>
+        <h2 class="mdl-card__title-text">{{ page.title}}</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- TODO : If comments enable -->
+    <div class="mdl-cell mdl-cell--12-col">
+
+      {% include components/comments.html %}
+    </div>
+  </div>
+  {% include footer.html %}
+  {% include components/navigation_end.html %}
+  {% include javascript.html %}
+</body>
+</html>

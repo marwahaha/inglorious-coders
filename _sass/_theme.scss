@@ -1,0 +1,102 @@
+.rigth-bottom {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+.no-deco {
+  text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+
+.post {
+  max-width: 900px;
+}
+
+.post-separation {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.mdl-card__title-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title-background {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.mdl-card__menu {
+  top: 10px;
+}
+
+.mdl-card- {
+  width: 100%;
+}
+
+.mdl-responsive {
+  width: calc(33.3333333333% - 16px);
+}
+
+.mdl-card__actions {
+position: absolute;
+    bottom: 0;
+  }
+
+.mdl-card__supporting-text {
+  padding-bottom: 60px;
+}
+
+.icon-middle {
+  vertical-align: middle;
+}
+/*
+  Pagination
+*/
+.pagination {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0,0,0,.5);
+}
+
+.pagination-element {
+  height: 30px;
+  width: 30px;
+  color: rgba(0,0,0,.5);
+  transition: color 2s;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+}
+
+.pagination-element[active]{
+  background: #2196F3;
+  border-radius: 50%;
+  color: white;
+}
+
+.pagination-element[active]:hover{
+  color: white;
+}
+
+.pagination-element:hover{
+  color: rgba(0,0,0,1);
+  transition: color 2s;
+}
+
+.pagination-element:first-child{
+  margin-left: 10px;
+}
+
+.pagination-element:last-child{
+  margin-right: 10px;
+}
+/*
+  END Pagination
+*/
