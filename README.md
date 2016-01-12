@@ -1,3 +1,5 @@
+# Project abandonned for version under https://gohugo.io/ 
+
 # Inglorious Coders
 
 # Assets
