@@ -1,4 +1,4 @@
-# Project abandonned for version under https://gohugo.io/ 
+# Project abandoned for version under https://gohugo.io/ 
 
 # Inglorious Coders
 
